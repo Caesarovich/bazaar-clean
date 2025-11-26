@@ -1439,43 +1439,43 @@ msgid "Pride Colors"
 msgstr "Kolory dumy"
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
+msgid "Desert Gradient"
 msgstr "Kolory dumy lesbijek"
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
+msgid "Pastel Sky Gradient"
 msgstr "Kolory dumy osób transpłciowych"
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
+msgid "Aurora Gradient"
 msgstr "Kolory dumy osób niebinarnych"
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
+msgid "Berry Gradient"
 msgstr "Kolory dumy osób biseksualnych"
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
+msgid "Monochrome Gradient"
 msgstr "Kolory dumy osób aseksualnych"
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
+msgid "Tropical Gradient"
 msgstr "Kolory dumy osób panseksualnych"
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
+msgid "Meadow Gradient"
 msgstr "Kolory dumy osób aromantycznych"
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
-msgstr "Kolory dumy osób genderfluidalnych"
+msgid "Nebula Gradient"
+msgstr "Kolory dumy osób nebulaalnych"
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
+msgid "Candy Gradient"
 msgstr "Kolory dumy osób polyseksualnych"
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
+msgid "Ocean Deep Gradient"
 msgstr "Kolory dumy osób omniseksualnych"
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26
@@ -1955,15 +1955,6 @@ msgstr "Wyjdź"
 
 #~ msgid "Wait for a brief pause to reduce system load"
 #~ msgstr "Poczekaj przez chilkę, aby zmniejszyć obciążenie systemu"
-
-#~ msgid "Pride Rainbow Flag"
-#~ msgstr "Tęczowa flaga dumy"
-
-#~ msgid "Bisexual Flag"
-#~ msgstr "Flaga osób biseksualnych"
-
-#~ msgid "Asexual Flag"
-#~ msgstr "Flaga osób aseksualnych"
 
 #~ msgid "Go Home"
 #~ msgstr "Powróć do strony domowej"

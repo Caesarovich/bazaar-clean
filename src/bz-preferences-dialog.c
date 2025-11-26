@@ -29,18 +29,18 @@ typedef struct
 } BarTheme;
 
 static const BarTheme bar_themes[] = {
-  {       "accent-color",  "accent-color-theme",             N_ ("Accent Color") },
-  { "pride-rainbow-flag", "pride-rainbow-theme",             N_ ("Pride Colors") },
-  { "lesbian-pride-flag", "lesbian-pride-theme",     N_ ("Lesbian Pride Colors") },
-  {   "transgender-flag",   "transgender-theme", N_ ("Transgender Pride Colors") },
-  {     "nonbinary-flag",     "nonbinary-theme",   N_ ("Nonbinary Pride Colors") },
-  {      "bisexual-flag",      "bisexual-theme",    N_ ("Bisexual Pride Colors") },
-  {       "asexual-flag",       "asexual-theme",     N_ ("Asexual Pride Colors") },
-  {     "pansexual-flag",     "pansexual-theme",   N_ ("Pansexual Pride Colors") },
-  {     "aromantic-flag",     "aromantic-theme",   N_ ("Aromantic Pride Colors") },
-  {   "genderfluid-flag",   "genderfluid-theme", N_ ("Genderfluid Pride Colors") },
-  {    "polysexual-flag",    "polysexual-theme",  N_ ("Polysexual Pride Colors") },
-  {    "omnisexual-flag",    "omnisexual-theme",  N_ ("Omnisexual Pride Colors") },
+  {       "accent-color", "accent-color-theme",             N_ ("Accent Color") },
+  {            "sunset",      "sunset-theme",                   N_ ("Sunset") },
+  {            "desert",      "desert-theme",                   N_ ("Desert") },
+  {        "pastel-sky", "pastel-sky-theme",               N_ ("Pastel Sky") },
+  {            "aurora",      "aurora-theme",                   N_ ("Aurora") },
+  {             "berry",       "berry-theme",                    N_ ("Berry") },
+  {        "monochrome",  "monochrome-theme",               N_ ("Monochrome") },
+  {          "tropical",    "tropical-theme",                 N_ ("Tropical") },
+  {            "meadow",      "meadow-theme",                   N_ ("Meadow") },
+  {            "nebula",      "nebula-theme",                   N_ ("Nebula") },
+  {             "candy",       "candy-theme",                    N_ ("Candy") },
+  {        "ocean-deep", "ocean-deep-theme",               N_ ("Ocean Deep") },
 };
 
 struct _BzPreferencesDialog

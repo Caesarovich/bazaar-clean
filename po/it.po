@@ -1051,50 +1051,48 @@ msgid "Accent Color"
 msgstr "Colore d'accento"
 
 #: src/bz-preferences-dialog.c:33
-msgid "Pride Colors"
-msgstr "Colori Pride"
+msgid "Sunset"
+msgstr "Tramonto"
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
-msgstr "Colori lesbian pride"
+msgid "Desert"
+msgstr "Deserto"
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
-msgstr "Colori transgender pride"
+msgid "Pastel Sky"
+msgstr "Cielo pastello"
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
-msgstr "Colori nonbinary pride"
+msgid "Aurora"
+msgstr "Aurora"
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
-msgstr "Colori bisexual pride"
+msgid "Berry"
+msgstr "Bacca"
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
-msgstr "Colori asexual pride"
+msgid "Monochrome"
+msgstr "Monocromo"
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
-msgstr ""
-"Non sono disponibili informazioni sulla curatela per questo sistema. È "
-"comunque possibile sfogliare le applicazioni su Flathub"
+msgid "Tropical"
+msgstr "Tropicale"
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
-msgstr "Colori aromantic pride"
+msgid "Meadow"
+msgstr "Prato"
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
-msgstr "Colori genderfluid pride"
+msgid "Nebula"
+msgstr "Nebulosa"
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
-msgstr "Colori polysexual pride"
+msgid "Candy"
+msgstr "Caramella"
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
-msgstr "Colori omnisexual pride"
+msgid "Ocean Deep"
+msgstr "Oceano profondo"
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26
 msgid "Version History"
@@ -1533,13 +1531,13 @@ msgstr "Esce"
 #~ msgid "Theme"
 #~ msgstr "Tema"
 
-#~ msgid "Pride Rainbow Flag"
+#~ msgid "Sunset Gradient"
 #~ msgstr "Bandiera arcobaleno"
 
-#~ msgid "Bisexual Flag"
+#~ msgid "Berry Gradient"
 #~ msgstr "Bandiera bisessuale"
 
-#~ msgid "Asexual Flag"
+#~ msgid "Monochrome Gradient"
 #~ msgstr "Bandiera asessuale"
 
 #~ msgid "Share"

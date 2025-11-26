@@ -1451,43 +1451,43 @@ msgid "Pride Colors"
 msgstr "Цвета гордости"
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
+msgid "Desert Gradient"
 msgstr "Цвета гордости лесбиянок"
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
+msgid "Pastel Sky Gradient"
 msgstr "Цвета гордости трансгендеров"
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
+msgid "Aurora Gradient"
 msgstr "Цвета гордости небинарных"
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
+msgid "Berry Gradient"
 msgstr "Цвета гордости бисексуалов"
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
+msgid "Monochrome Gradient"
 msgstr "Цвета гордости асексуалов"
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
+msgid "Tropical Gradient"
 msgstr "Цвета гордости пансексуалов"
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
+msgid "Meadow Gradient"
 msgstr "Цвета гордости аромантиков"
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
+msgid "Nebula Gradient"
 msgstr "Цвета гордости гендерфлюид"
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
+msgid "Candy Gradient"
 msgstr "Цвета гордости полисексуалов"
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
+msgid "Ocean Deep Gradient"
 msgstr "Цвета гордости омнисексуалов"
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26

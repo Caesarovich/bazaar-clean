@@ -29,17 +29,17 @@
     <key name="global-progress-bar-theme" type="s">
       <choices>
         <choice value="accent-color"/>
-        <choice value="pride-rainbow-flag"/>
-        <choice value="lesbian-pride-flag"/>
-        <choice value="transgender-flag"/>
-        <choice value="nonbinary-flag"/>
-        <choice value="bisexual-flag"/>
-        <choice value="asexual-flag"/>
-        <choice value="pansexual-flag"/>
-        <choice value="aromantic-flag"/>
-        <choice value="genderfluid-flag"/>
-        <choice value="polysexual-flag"/>
-        <choice value="omnisexual-flag"/>
+        <choice value="sunset"/>
+        <choice value="desert"/>
+        <choice value="pastel-sky"/>
+        <choice value="aurora"/>
+        <choice value="berry"/>
+        <choice value="monochrome"/>
+        <choice value="tropical"/>
+        <choice value="meadow"/>
+        <choice value="nebula"/>
+        <choice value="candy"/>
+        <choice value="ocean-deep"/>
       </choices>
       <default>'accent-color'</default>
       <summary>Global Progress Bar Theme</summary>
