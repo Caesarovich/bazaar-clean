@@ -1406,48 +1406,48 @@ msgid "Accent Color"
 msgstr "Akzentfarbe"
 
 #: src/bz-preferences-dialog.c:33
-msgid "Pride Colors"
-msgstr "Pride-Farben"
+msgid "Sunset"
+msgstr ""
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
-msgstr "Lesben-Pride-Flagge"
+msgid "Desert"
+msgstr "Wüste"
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
-msgstr "Transgender-Flagge"
+msgid "Pastel Sky"
+msgstr "Pasteller Himmel"
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
-msgstr "Nichtbinären-Flagge"
+msgid "Aurora"
+msgstr "Aurora"
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
+msgid "Berry"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
+msgid "Monochrome"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
-msgstr "Pansexuellenflagge"
+msgid "Tropical"
+msgstr "Tropisch"
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
-msgstr "Aromantischenflagge"
+msgid "Meadow"
+msgstr "Wiese"
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
-msgstr "Genderfluidenflagge"
+msgid "Nebula"
+msgstr "Nebel"
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
-msgstr "Polysexuellenflagge"
+msgid "Candy"
+msgstr "Süßigkeiten"
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
-msgstr "Omnisexuellenflagge"
+msgid "Ocean Deep"
+msgstr "Tiefes Meer"
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26
 msgid "Version History"
@@ -1955,13 +1955,13 @@ msgstr "Beenden"
 #~ msgid "Theme"
 #~ msgstr "Design"
 
-#~ msgid "Pride Rainbow Flag"
+#~ msgid "Sunset Gradient"
 #~ msgstr "Pride-Regenbogenflagge"
 
-#~ msgid "Bisexual Flag"
+#~ msgid "Berry Gradient"
 #~ msgstr "Bisexuellenflagge"
 
-#~ msgid "Asexual Flag"
+#~ msgid "Monochrome Gradient"
 #~ msgstr "Asexuellenflagge"
 
 #~ msgid "Share"

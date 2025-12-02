@@ -1460,70 +1460,49 @@ msgstr ""
 msgid "Accent Color"
 msgstr "Cor de destaque"
 
-#: src/bz-preferences-dialog.c:33
-msgid "Pride Colors"
-msgstr "Cores de Orgulho"
+#: src/bz-preferences-dialog.blp:49
+msgid "Sunset Gradient"
+msgstr "Bandeira do Orgulho Arco-Íris"
 
-#: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
-msgstr "Cores do Orgulho Lésbico"
+#: src/bz-preferences-dialog.blp:50
+msgid "Desert Gradient"
+msgstr "Bandeira do Orgulho Lésbico"
 
-#: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
-msgstr "Cores do Orgulho Transgênero"
+#: src/bz-preferences-dialog.blp:51
+msgid "Pastel Sky Gradient"
+msgstr "Bandeira Transgênero"
 
-#: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
-msgstr "Cores do Orgulho Não Binário"
+#: src/bz-preferences-dialog.blp:52
+msgid "Aurora Gradient"
+msgstr "Bandeira Não binária"
 
-#: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
-msgstr "Cores do Orgulho Bisexual"
+#: src/bz-preferences-dialog.blp:53
+msgid "Berry Gradient"
+msgstr "Bandeira Bissexual"
 
-#: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
-msgstr "Cores do Orgulho Asexual"
+#: src/bz-preferences-dialog.blp:54
+msgid "Monochrome Gradient"
+msgstr "Bandeira Assexual"
 
-#: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
-msgstr "Cores do Orgulho Pansexual"
+#: src/bz-preferences-dialog.blp:55
+msgid "Tropical Gradient"
+msgstr "Bandeira Pansexual"
 
-#: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
-msgstr "Cores do Orgulho Arromântico"
+#: src/bz-preferences-dialog.blp:56
+msgid "Meadow Gradient"
+msgstr "Bandeira Aromântica"
 
-#: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
-msgstr "Cores do Orgulho Gênero Fluído"
+#: src/bz-preferences-dialog.blp:57
+msgid "Nebula Gradient"
+msgstr "Bandeira de Gênero Fluido"
 
-#: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
-msgstr "Cores do Orgulho Polissexual"
+#: src/bz-preferences-dialog.blp:58
+msgid "Candy Gradient"
+msgstr "Bandeira Polissexual"
 
-#: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
-msgstr "Cores do Orgulho Omnissexual"
-
-#: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26
-msgid "Version History"
-msgstr "Histórico de Versão"
-
-#: src/bz-releases-list.c:128
-#, c-format
-msgid "Version %s"
-msgstr "Versão %s"
-
-#: src/bz-releases-list.c:153
-msgid "No details for this release"
-msgstr "Não há detalhes para este lançamento"
-
-#: src/bz-rich-app-tile.blp:137
-msgid "Stopped Receiving Updates"
-msgstr "Parou de Receber Atualizações"
-
-#: src/bz-rich-app-tile.blp:154
-msgid "Get"
-msgstr "Obter"
+#: src/bz-preferences-dialog.blp:59
+msgid "Ocean Deep Gradient"
+msgstr "Bandeira Omnissexual"
 
 #: src/bz-search-widget.blp:105
 msgid "Search Apps, Games, Software"

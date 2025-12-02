@@ -1628,43 +1628,43 @@ msgid "Pride Colors"
 msgstr "プライドカラー"
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
+msgid "Desert Gradient"
 msgstr "レズビアン プライド カラー"
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
+msgid "Pastel Sky Gradient"
 msgstr "トランスジェンダー プライド カラー"
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
+msgid "Aurora Gradient"
 msgstr "ノンバイナリー プライド カラー"
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
+msgid "Berry Gradient"
 msgstr "バイセクシュアル プライド カラー"
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
+msgid "Monochrome Gradient"
 msgstr "アセクシュアル プライド カラー"
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
+msgid "Tropical Gradient"
 msgstr "パンセクシュアル プライド カラー"
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
+msgid "Meadow Gradient"
 msgstr "アロマンティック プライド カラー"
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
+msgid "Nebula Gradient"
 msgstr "ジェンダーフルイド プライド カラー"
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
+msgid "Candy Gradient"
 msgstr "ポリセクシュアル プライド カラー"
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
+msgid "Ocean Deep Gradient"
 msgstr "オムニセクシュアル プライド カラー"
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26
@@ -2070,15 +2070,6 @@ msgstr "アプリを閉じる"
 
 #~ msgid "Settings & user data will be kept"
 #~ msgstr "設定とユーザーデータは保持されます"
-
-#~ msgid "Pride Rainbow Flag"
-#~ msgstr "プライドレインボー フラッグ"
-
-#~ msgid "Bisexual Flag"
-#~ msgstr "バイセクシュアル フラッグ"
-
-#~ msgid "Asexual Flag"
-#~ msgstr "アセクシュアル フラッグ"
 
 #~ msgid "_Quit Service"
 #~ msgstr "_サービスの停止"

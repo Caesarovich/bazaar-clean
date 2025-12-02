@@ -94,3 +94,9 @@ This project adheres to the [GNOME Code of Conduct](https://conduct.gnome.org/).
 - [Bazaar is a game changer](https://gardinerbryant.com/linux-software-management-is-about-to-change-with-bazaar/)
 - [Bazaar is a Slick New Desktop Flathub Frontend](https://www.omgubuntu.co.uk/2025/08/bazaar-new-flatpak-app-store-gnome-linux)
 - [Bazaar Is the Flatpak Store GNOME Always Needed](https://linuxiac.com/bazaar-is-the-flatpak-store-gnome-always-needed/)
+
+### This fork
+
+This fork removes political elements from the [bazaar](https://github.com/kolunmi/bazaar) project. I do not intend to change any functionality other than the current cosmetic changes. All of the credit for this project goes to the upstream contributors.
+
+<img width="619" height="134" alt="image" src="https://github.com/user-attachments/assets/9bab83b1-c245-4e30-b99d-634c141f62fa" />

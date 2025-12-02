@@ -1146,43 +1146,43 @@ msgid "Pride Colors"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
+msgid "Desert Gradient"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
+msgid "Pastel Sky Gradient"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
+msgid "Aurora Gradient"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
+msgid "Berry Gradient"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
+msgid "Monochrome Gradient"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
+msgid "Tropical Gradient"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
+msgid "Meadow Gradient"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
+msgid "Nebula Gradient"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
+msgid "Candy Gradient"
 msgstr ""
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
+msgid "Ocean Deep Gradient"
 msgstr ""
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26

@@ -1449,43 +1449,43 @@ msgid "Pride Colors"
 msgstr "Барви Гордості"
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
+msgid "Desert Gradient"
 msgstr "Лесбійський прапор"
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
+msgid "Pastel Sky Gradient"
 msgstr "Трансґендерний прапор"
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
+msgid "Aurora Gradient"
 msgstr "Небінарний прапор"
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
+msgid "Berry Gradient"
 msgstr "Бісексуальні барви Гордості"
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
+msgid "Monochrome Gradient"
 msgstr "Асексуальні барви Гордості"
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
+msgid "Tropical Gradient"
 msgstr "Пансексуальний прапор"
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
+msgid "Meadow Gradient"
 msgstr "Аромантичний прапор"
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
+msgid "Nebula Gradient"
 msgstr "Ґендерфлюїдний прапор"
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
+msgid "Candy Gradient"
 msgstr "Полісексуальний прапор"
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
+msgid "Ocean Deep Gradient"
 msgstr "Омнісексуальний прапор"
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26

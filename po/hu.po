@@ -1020,48 +1020,48 @@ msgid "Accent Color"
 msgstr "Kiemelőszín"
 
 #: src/bz-preferences-dialog.c:33
-msgid "Pride Colors"
-msgstr "Pride színek"
+msgid "Sunset"
+msgstr "Napnyugta"
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
-msgstr "Lezbikus színek"
+msgid "Desert"
+msgstr "Sivatag"
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
-msgstr "Transzgender színek"
+msgid "Pastel Sky"
+msgstr "Pasztell ég"
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
-msgstr "Nonbináris színek"
+msgid "Aurora"
+msgstr "Sarki fény"
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
-msgstr "Biszexuális színek"
+msgid "Berry"
+msgstr "Bogyó"
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
-msgstr "Aszexuális színek"
+msgid "Monochrome"
+msgstr "Monokróm"
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
-msgstr "Pánszexuális színek"
+msgid "Tropical"
+msgstr "Tropikus"
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
-msgstr "Aromantikus színek"
+msgid "Meadow"
+msgstr "Rét"
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
-msgstr "Genderfluid színek"
+msgid "Nebula"
+msgstr "Ködköz"
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
-msgstr "Poliszexuális színek"
+msgid "Candy"
+msgstr "Cukorka"
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
-msgstr "Omniszexuális színek"
+msgid "Ocean Deep"
+msgstr "Mély óceán"
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26
 msgid "Version History"

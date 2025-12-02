@@ -321,409 +321,144 @@ bz_global_progress_snapshot (GtkWidget   *widget,
 
       if (theme == NULL || g_strcmp0 (theme, "accent-color") == 0)
         gtk_snapshot_append_color (snapshot, accent_color, &fraction_clip.bounds);
-      else if (g_strcmp0 (theme, "pride-rainbow-flag") == 0)
+      else if (g_strcmp0 (theme, "sunset") == 0)
         {
-          const GdkRGBA colors[] = {
-            { 228.0 / 255.0,   3.0 / 255.0,   3.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 140.0 / 255.0,   0.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 237.0 / 255.0,   0.0 / 255.0, 1.0 },
-            {   0.0 / 255.0, 128.0 / 255.0,  38.0 / 255.0, 1.0 },
-            {   0.0 / 255.0,  76.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 115.0 / 255.0,  41.0 / 255.0, 130.0 / 255.0, 1.0 },
+          /* Sunset gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 1.0, 0.494, 0.373, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.996, 0.706, 0.482, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 6.0,
-            1.0 / 6.0,
-            2.0 / 6.0,
-            3.0 / 6.0,
-            4.0 / 6.0,
-            5.0 / 6.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 6.0,
-            1.0 / 6.0,
-            1.0 / 6.0,
-            1.0 / 6.0,
-            1.0 / 6.0,
-            1.0 / 6.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "lesbian-pride-flag") == 0)
+      else if (g_strcmp0 (theme, "desert") == 0)
         {
-          const GdkRGBA colors[] = {
-            { 213.0 / 255.0,  45.0 / 255.0,   0.0 / 255.0, 1.0 },
-            { 239.0 / 255.0, 118.0 / 255.0,  39.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 154.0 / 255.0,  86.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 209.0 / 255.0,  98.0 / 255.0, 164.0 / 255.0, 1.0 },
-            { 181.0 / 255.0,  86.0 / 255.0, 144.0 / 255.0, 1.0 },
-            { 163.0 / 255.0,   2.0 / 255.0,  98.0 / 255.0, 1.0 },
+          /* Desert gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.82, 0.416, 0.416, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.969, 0.698, 0.404, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 7.0,
-            1.0 / 7.0,
-            2.0 / 7.0,
-            3.0 / 7.0,
-            4.0 / 7.0,
-            5.0 / 7.0,
-            6.0 / 7.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "transgender-flag") == 0)
+      else if (g_strcmp0 (theme, "pastel-sky") == 0)
         {
-          const GdkRGBA colors[] = {
-            {  91.0 / 255.0, 206.0 / 255.0, 250.0 / 255.0, 1.0 },
-            { 245.0 / 255.0, 169.0 / 255.0, 184.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
+          /* Pastel Sky gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.631, 0.769, 0.992, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.761, 0.914, 0.984, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 5.0,
-            1.0 / 5.0,
-            2.0 / 5.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            5.0 / 5.0,
-            3.0 / 5.0,
-            1.0 / 5.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "nonbinary-flag") == 0)
+      else if (g_strcmp0 (theme, "aurora") == 0)
         {
-          const GdkRGBA colors[] = {
-            { 252.0 / 255.0, 244.0 / 255.0,  52.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 156.0 / 255.0,  89.0 / 255.0, 209.0 / 255.0, 1.0 },
-            {  44.0 / 255.0,  44.0 / 255.0,  44.0 / 255.0, 1.0 },
+          /* Aurora gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.659, 1.0, 0.471, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.471, 1.0, 0.839, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.298, 0.765, 1.0, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 4.0,
-            1.0 / 4.0,
-            2.0 / 4.0,
-            3.0 / 4.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 4.0,
-            1.0 / 4.0,
-            1.0 / 4.0,
-            1.0 / 4.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "bisexual-flag") == 0)
+      else if (g_strcmp0 (theme, "berry") == 0)
         {
-          const GdkRGBA colors[] = {
-            { 214.0 / 255.0,  2.0 / 255.0, 112.0 / 255.0, 1.0 },
-            { 155.0 / 255.0, 79.0 / 255.0, 150.0 / 255.0, 1.0 },
-            {   0.0 / 255.0, 56.0 / 255.0, 168.0 / 255.0, 1.0 },
+          /* Berry gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 1.0, 0.42, 0.796, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.541, 0.169, 0.886, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.18, 0.169, 1.0, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 5.0,
-            2.0 / 5.0,
-            3.0 / 5.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            2.0 / 5.0,
-            1.0 / 5.0,
-            2.0 / 5.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "asexual-flag") == 0)
+      else if (g_strcmp0 (theme, "monochrome") == 0)
         {
-          const GdkRGBA colors[] = {
-            {   0.0 / 255.0,   0.0 / 255.0,   0.0 / 255.0, 1.0 },
-            { 163.0 / 255.0, 163.0 / 255.0, 163.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 128.0 / 255.0,   0.0 / 255.0, 128.0 / 255.0, 1.0 },
+          /* Monochrome gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.059, 0.059, 0.059, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.42, 0.42, 0.42, 1.0 } },
+            { 1.0, (GdkRGBA) { 1.0, 1.0, 1.0, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 4.0,
-            1.0 / 4.0,
-            2.0 / 4.0,
-            3.0 / 4.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 4.0,
-            1.0 / 4.0,
-            1.0 / 4.0,
-            1.0 / 4.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "pansexual-flag") == 0)
+      else if (g_strcmp0 (theme, "tropical") == 0)
         {
-          const GdkRGBA colors[] = {
-            { 255.0 / 255.0,  33.0 / 255.0, 140.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 216.0 / 255.0,   0.0 / 255.0, 1.0 },
-            {  33.0 / 255.0, 177.0 / 255.0, 255.0 / 255.0, 1.0 },
+          /* Tropical gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 1.0, 0.373, 0.427, 1.0 } },
+            { 0.5, (GdkRGBA) { 1.0, 0.765, 0.443, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.0, 0.824, 1.0, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 3.0,
-            1.0 / 3.0,
-            2.0 / 3.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 3.0,
-            1.0 / 3.0,
-            1.0 / 3.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "aromantic-flag") == 0)
+      else if (g_strcmp0 (theme, "meadow") == 0)
         {
-          const GdkRGBA colors[] = {
-            {  61.0 / 255.0, 165.0 / 255.0,  66.0 / 255.0, 1.0 },
-            { 167.0 / 255.0, 211.0 / 255.0, 121.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 169.0 / 255.0, 169.0 / 255.0, 169.0 / 255.0, 1.0 },
-            {   0.0 / 255.0,   0.0 / 255.0,   0.0 / 255.0, 1.0 },
+          /* Meadow gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.659, 0.878, 0.388, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.337, 0.651, 0.184, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 5.0,
-            1.0 / 5.0,
-            2.0 / 5.0,
-            3.0 / 5.0,
-            4.0 / 5.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "genderfluid-flag") == 0)
+      else if (g_strcmp0 (theme, "nebula") == 0)
         {
-          const GdkRGBA colors[] = {
-            { 255.0 / 255.0, 118.0 / 255.0, 164.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 192.0 / 255.0,  17.0 / 255.0, 215.0 / 255.0, 1.0 },
-            {   0.0 / 255.0,   0.0 / 255.0,   0.0 / 255.0, 1.0 },
-            {  47.0 / 255.0,  60.0 / 255.0, 190.0 / 255.0, 1.0 },
+          /* Nebula gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.984, 0.761, 0.922, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.631, 0.549, 0.82, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.310, 0.675, 0.996, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 5.0,
-            1.0 / 5.0,
-            2.0 / 5.0,
-            3.0 / 5.0,
-            4.0 / 5.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "polysexual-flag") == 0)
+      else if (g_strcmp0 (theme, "candy") == 0)
         {
-          const GdkRGBA colors[] = {
-            { 247.0 / 255.0,  20.0 / 255.0, 186.0 / 255.0, 1.0 },
-            {   1.0 / 255.0, 214.0 / 255.0, 106.0 / 255.0, 1.0 },
-            {  21.0 / 255.0, 148.0 / 255.0, 246.0 / 255.0, 1.0 },
+          /* Candy gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 1.0, 0.604, 0.620, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.996, 0.812, 0.937, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.965, 0.827, 0.396, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 3.0,
-            1.0 / 3.0,
-            2.0 / 3.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 3.0,
-            1.0 / 3.0,
-            1.0 / 3.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
-      else if (g_strcmp0 (theme, "omnisexual-flag") == 0)
+      else if (g_strcmp0 (theme, "ocean-deep") == 0)
         {
-          const GdkRGBA colors[] = {
-            { 254.0 / 255.0, 154.0 / 255.0, 206.0 / 255.0, 1.0 },
-            { 255.0 / 255.0,  83.0 / 255.0, 191.0 / 255.0, 1.0 },
-            {  32.0 / 255.0,   0.0 / 255.0,  68.0 / 255.0, 1.0 },
-            { 103.0 / 255.0,  96.0 / 255.0, 254.0 / 255.0, 1.0 },
-            { 142.0 / 255.0, 166.0 / 255.0, 255.0 / 255.0, 1.0 },
+          /* Ocean Deep gradient */
+          GskColorStop stops[] = {
+            { 0.0, (GdkRGBA) { 0.169, 0.345, 0.463, 1.0 } },
+            { 0.5, (GdkRGBA) { 0.306, 0.263, 0.463, 1.0 } },
+            { 1.0, (GdkRGBA) { 0.106, 0.424, 0.659, 1.0 } }
           };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 5.0,
-            1.0 / 5.0,
-            2.0 / 5.0,
-            3.0 / 5.0,
-            4.0 / 5.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
-        }
-      else if (g_strcmp0 (theme, "aroace-flag") == 0)
-        {
-          const GdkRGBA colors[] = {
-            { 226.0 / 255.0, 140.0 / 255.0,   0.0 / 255.0, 1.0 },
-            { 236.0 / 255.0, 205.0 / 255.0,   0.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            {  98.0 / 255.0, 174.0 / 255.0, 220.0 / 255.0, 1.0 },
-            {  32.0 / 255.0,  56.0 / 255.0,  86.0 / 255.0, 1.0 },
-          };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 5.0,
-            1.0 / 5.0,
-            2.0 / 5.0,
-            3.0 / 5.0,
-            4.0 / 5.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
-        }
-      else if (g_strcmp0 (theme, "agender-flag") == 0)
-        {
-          const GdkRGBA colors[] = {
-            {   0.0 / 255.0,   0.0 / 255.0,   0.0 / 255.0, 1.0 },
-            { 188.0 / 255.0, 196.0 / 255.0, 199.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 183.0 / 255.0, 246.0 / 255.0, 132.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 188.0 / 255.0, 196.0 / 255.0, 199.0 / 255.0, 1.0 },
-            {   0.0 / 255.0,   0.0 / 255.0,   0.0 / 255.0, 1.0 },
-          };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 7.0,
-            1.0 / 7.0,
-            2.0 / 7.0,
-            3.0 / 7.0,
-            4.0 / 7.0,
-            5.0 / 7.0,
-            6.0 / 7.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
-        }
-      else if (g_strcmp0 (theme, "genderqueer-flag") == 0)
-        {
-          const GdkRGBA colors[] = {
-            { 181.0 / 255.0, 126.0 / 255.0, 220.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            {  74.0 / 255.0, 129.0 / 255.0,  35.0 / 255.0, 1.0 },
-          };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 3.0,
-            1.0 / 3.0,
-            2.0 / 3.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 3.0,
-            1.0 / 3.0,
-            1.0 / 3.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
-        }
-      else if (g_strcmp0 (theme, "intersex-flag") == 0)
-        {
-          const GdkRGBA colors[] = {
-            { 255.0 / 255.0, 216.0 / 255.0,   0.0 / 255.0, 1.0 },
-            { 121.0 / 255.0,   2.0 / 255.0, 170.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 216.0 / 255.0,   0.0 / 255.0, 1.0 },
-          };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 5.0,
-            2.0 / 5.0,
-            3.0 / 5.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            2.0 / 5.0,
-            1.0 / 5.0,
-            2.0 / 5.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
-        }
-      else if (g_strcmp0 (theme, "demigender-flag") == 0)
-        {
-          const GdkRGBA colors[] = {
-            { 127.0 / 255.0, 127.0 / 255.0, 127.0 / 255.0, 1.0 },
-            { 195.0 / 255.0, 195.0 / 255.0, 195.0 / 255.0, 1.0 },
-            { 251.0 / 255.0, 255.0 / 255.0, 116.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 251.0 / 255.0, 255.0 / 255.0, 116.0 / 255.0, 1.0 },
-            { 195.0 / 255.0, 195.0 / 255.0, 195.0 / 255.0, 1.0 },
-            { 127.0 / 255.0, 127.0 / 255.0, 127.0 / 255.0, 1.0 },
-          };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 7.0,
-            1.0 / 7.0,
-            2.0 / 7.0,
-            3.0 / 7.0,
-            4.0 / 7.0,
-            5.0 / 7.0,
-            6.0 / 7.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-            1.0 / 7.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
-        }
-      else if (g_strcmp0 (theme, "biromantic-flag") == 0)
-        {
-          const GdkRGBA colors[] = {
-            { 136.0 / 255.0, 105.0 / 255.0, 165.0 / 255.0, 1.0 },
-            { 216.0 / 255.0, 167.0 / 255.0, 216.0 / 255.0, 1.0 },
-            { 255.0 / 255.0, 255.0 / 255.0, 255.0 / 255.0, 1.0 },
-            { 253.0 / 255.0, 177.0 / 255.0, 141.0 / 255.0, 1.0 },
-            {  21.0 / 255.0,  22.0 / 255.0,  56.0 / 255.0, 1.0 },
-          };
-          const float offsets[G_N_ELEMENTS (colors)] = {
-            0.0 / 5.0,
-            1.0 / 5.0,
-            2.0 / 5.0,
-            3.0 / 5.0,
-            4.0 / 5.0,
-          };
-          const float sizes[G_N_ELEMENTS (colors)] = {
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-            1.0 / 5.0,
-          };
-          append_striped_flag (snapshot, colors, offsets, sizes, G_N_ELEMENTS (colors), &fraction_clip.bounds);
+          gtk_snapshot_append_linear_gradient (snapshot, &fraction_clip.bounds,
+                                                &(graphene_point_t) { 0, 0 },
+                                                &(graphene_point_t) { fraction_clip.bounds.size.width, 0 },
+                                                stops, G_N_ELEMENTS (stops));
         }
       else
         gtk_snapshot_append_color (snapshot, accent_color, &fraction_clip.bounds);

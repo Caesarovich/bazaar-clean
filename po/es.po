@@ -997,48 +997,48 @@ msgid "Accent Color"
 msgstr "Color de realce personal"
 
 #: src/bz-preferences-dialog.c:33
-msgid "Pride Colors"
-msgstr "Colores del Orgullo"
+msgid "Sunset"
+msgstr "Atardecer"
 
 #: src/bz-preferences-dialog.c:34
-msgid "Lesbian Pride Colors"
-msgstr "Colores del Orgullo Lésbico"
+msgid "Desert"
+msgstr "Desierto"
 
 #: src/bz-preferences-dialog.c:35
-msgid "Transgender Pride Colors"
-msgstr "Colores del Orgullo Transgénero"
+msgid "Pastel Sky"
+msgstr "Cielo Pastel"
 
 #: src/bz-preferences-dialog.c:36
-msgid "Nonbinary Pride Colors"
-msgstr "Colores del Orgullo No Binario"
+msgid "Aurora"
+msgstr "Aurora"
 
 #: src/bz-preferences-dialog.c:37
-msgid "Bisexual Pride Colors"
-msgstr "Colores del Orgullo Bisexual"
+msgid "Berry"
+msgstr "Frutas del bosque"
 
 #: src/bz-preferences-dialog.c:38
-msgid "Asexual Pride Colors"
-msgstr "Colores del Orgullo Asexual"
+msgid "Monochrome"
+msgstr "Monocromático"
 
 #: src/bz-preferences-dialog.c:39
-msgid "Pansexual Pride Colors"
-msgstr "Colores del Orgullo Pansexual"
+msgid "Tropical"
+msgstr "Tropical"
 
 #: src/bz-preferences-dialog.c:40
-msgid "Aromantic Pride Colors"
-msgstr "Colores del Orgullo Aromántico"
+msgid "Meadow"
+msgstr "Pradera"
 
 #: src/bz-preferences-dialog.c:41
-msgid "Genderfluid Pride Colors"
-msgstr "Colores del Orgullo de Género fluído"
+msgid "Nebula"
+msgstr "Nebulosa"
 
 #: src/bz-preferences-dialog.c:42
-msgid "Polysexual Pride Colors"
-msgstr "Colores del Orgullo Polisexual"
+msgid "Candy"
+msgstr "Dulce"
 
 #: src/bz-preferences-dialog.c:43
-msgid "Omnisexual Pride Colors"
-msgstr "Colores del Orgullo Omnisexual "
+msgid "Ocean Deep"
+msgstr "Océano Profundo"
 
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:25
 msgid "Version History"
@@ -1382,13 +1382,13 @@ msgstr "Salir"
 #~ msgid "Theme"
 #~ msgstr "Tema"
 
-#~ msgid "Pride Rainbow Flag"
+#~ msgid "Sunset Gradient"
 #~ msgstr "Bandera del Orgullo"
 
-#~ msgid "Bisexual Flag"
+#~ msgid "Berry Gradient"
 #~ msgstr "Bandera Bisexual"
 
-#~ msgid "Asexual Flag"
+#~ msgid "Monochrome Gradient"
 #~ msgstr "Bandera Asexual"
 
 #~ msgid "Share"

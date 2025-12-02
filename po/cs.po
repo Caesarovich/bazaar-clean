@@ -839,47 +839,47 @@ msgid "Accent Color"
 msgstr "Barva akcentu"
 
 #: src/bz-preferences-dialog.blp:49
-msgid "Pride Rainbow Flag"
+msgid "Sunset Gradient"
 msgstr "Pride Vlajka"
 
 #: src/bz-preferences-dialog.blp:50
-msgid "Lesbian Pride Flag"
+msgid "Desert Gradient"
 msgstr "Lesbická Pride Vlajka"
 
 #: src/bz-preferences-dialog.blp:51
-msgid "Transgender Flag"
+msgid "Pastel Sky Gradient"
 msgstr "Transgender Vlajka"
 
 #: src/bz-preferences-dialog.blp:52
-msgid "Nonbinary Flag"
+msgid "Aurora Gradient"
 msgstr "Nonbinary Vlajka"
 
 #: src/bz-preferences-dialog.blp:53
-msgid "Bisexual Flag"
+msgid "Berry Gradient"
 msgstr "Bisexual Vlajka"
 
 #: src/bz-preferences-dialog.blp:54
-msgid "Asexual Flag"
+msgid "Monochrome Gradient"
 msgstr "Asexual Vlajka"
 
 #: src/bz-preferences-dialog.blp:55
-msgid "Pansexual Flag"
+msgid "Tropical Gradient"
 msgstr "Pansexual Vlajka"
 
 #: src/bz-preferences-dialog.blp:56
-msgid "Aromantic Flag"
+msgid "Meadow Gradient"
 msgstr "Aromantic Vlajka"
 
 #: src/bz-preferences-dialog.blp:57
-msgid "Genderfluid Flag"
+msgid "Nebula Gradient"
 msgstr "Genderfluid Vlajka"
 
 #: src/bz-preferences-dialog.blp:58
-msgid "Polysexual Flag"
+msgid "Candy Gradient"
 msgstr "Polysexual Vlajka"
 
 #: src/bz-preferences-dialog.blp:59
-msgid "Omnisexual Flag"
+msgid "Ocean Deep Gradient"
 msgstr "Omnisexual Vlajka"
 
 #: src/bz-search-widget.blp:69
