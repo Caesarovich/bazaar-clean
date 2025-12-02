@@ -1474,36 +1474,6 @@ msgstr "Şeker"
 msgid "Ocean Deep"
 msgstr "Derin Okyanus"
 
-#: src/bz-preferences-dialog.c:44
-#| msgid "Aromantic Pride Colors"
-msgid "Aroace Pride Colors"
-msgstr "Aroace Pride Colors"
-
-#: src/bz-preferences-dialog.c:45
-#| msgid "Transgender Pride Colors"
-msgid "Agender Pride Colors"
-msgstr "Agender Pride Colors"
-
-#: src/bz-preferences-dialog.c:46
-#| msgid "Genderfluid Pride Colors"
-msgid "Genderqueer Pride Colors"
-msgstr "Genderqueer Pride Colors"
-
-#: src/bz-preferences-dialog.c:47
-#| msgid "Pansexual Pride Colors"
-msgid "Intersex Pride Colors"
-msgstr "Intersex Pride Colors"
-
-#: src/bz-preferences-dialog.c:48
-#| msgid "Transgender Pride Colors"
-msgid "Demigender Pride Colors"
-msgstr "Demigender Pride Colors"
-
-#: src/bz-preferences-dialog.c:49
-#| msgid "Aromantic Pride Colors"
-msgid "Biromantic Pride Colors"
-msgstr "Biromantic Pride Colors"
-
 #: src/bz-releases-dialog.blp:5 src/bz-releases-list.blp:26
 msgid "Version History"
 msgstr "Sürüm Geçmişi"
